@@ -75,6 +75,8 @@ opened google?  success
 Page title is Google
 ```
 
+# Current Progress
+
 I have things compiling now... yeah! However I'm getting quite a weird error:
 
 ```
