@@ -1,4 +1,4 @@
-An attempt to explore making phantomjs-node bindings for purescript.
+An attempt to explore making [phantomjs-node](https://github.com/sgentle/phantomjs-node/) bindings for purescript.
 
 I'm currently just trying to figure out simulate this snippet of code from phantomjs-node:
 
