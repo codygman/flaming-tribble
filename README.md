@@ -77,7 +77,13 @@ Page title is Google
 
 # Current Progress
 
-I have things compiling now... yeah! However I'm getting quite a weird error:
+I have things compiling now... yeah! I compiled with:
+
+```shell
+pulp build -O -t all.js
+```
+
+However I'm getting quite a weird error:
 
 ```
 /home/cody/programming/purescript/purescript-phantomjs/all.js:43
