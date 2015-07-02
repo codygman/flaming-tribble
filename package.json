@@ -1,0 +1,34 @@
+{
+  "name": "purescript-phantomjs",
+  "version": "1.0.0",
+  "description": "An attempt to explore making phantomjs bindings for purescript.",
+  "main": "all.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codygman/flaming-tribble.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codygman/flaming-tribble/issues"
+  },
+  "homepage": "https://github.com/codygman/flaming-tribble#readme",
+  "dependencies": {
+        "phantom": "0.7.2"
+  },
+  "name": "phantom-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
