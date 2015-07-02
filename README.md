@@ -8,7 +8,7 @@ var page = require('webpage').create();
 console.log(page.settings);
 ```
 
-require('webpage').create() resolves to:
+`require('webpage').create()` resolves to:
 
 ```javascript
 exports.create = function (opts) {
