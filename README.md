@@ -75,17 +75,19 @@ opened google?  success
 Page title is Google
 ```
 
-I'm currently trying to simulate phantom.create and so far have these foreign definitions:
+I have things compiling now... yeah! However I'm getting quite a weird error:
 
-```purescript
-foreign import data PHANTOM :: !
-foreign import createPhantom :: forall eff. Eff (x :: PHANTOM | eff) Unit
 ```
-
-with this javascript definition:
-
-```javascript
-exports.createPhantom = function () { require("phantom").create(); };
+/home/cody/programming/purescript/purescript-phantomjs/all.js:43
+PS["Main"].main();
+           ^
+TypeError: undefined is not a function
+    at Object.<anonymous> (/home/cody/programming/purescript/purescript-phantomjs/all.js:43:12)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Function.Module.runMain (module.js:501:10)
+    at startup (node.js:129:16)
+    at node.js:814:3
 ```
-
-However I don't think that will work since you must use whatever is (no really what is it, I can't figure [this function out](https://github.com/sgentle/phantomjs-node/blob/8fc711ee484c08416315544814224ade235a64b4/phantom.coffee#L41).. then again I have never read coffeescript before) returned by `phantom.create` and stored in the `ph` example from the first phantom-node example at the top of the page.
